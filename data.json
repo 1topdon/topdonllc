@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "image": "/assets/desk1.jpg",
+    "name": "Adjustable Standing Desk",
+    "description": "A versatile desk that allows you to switch between sitting and standing positions.",
+    "price": 249.99
+  },
+  {
+    "id": 2,
+    "image": "/assets/desk2.jpg",
+    "name": "Electric Standing Desk",
+    "description": "An electrically adjustable desk with smooth height transitions.",
+    "price": 399.99
+  },
+  {
+    "id": 3,
+    "image": "/assets/desk3.jpg",
+    "name": "Convertible Standing Desk",
+    "description": "A desk that can be easily converted from sitting to standing mode.",
+    "price": 299.99
+  },
+  {
+    "id": 4,
+    "image": "/assets/desk4.jpg",
+    "name": "Compact Standing Desk",
+    "description": "A space-saving desk designed for small workspaces.",
+    "price": 199.99
+  },
+  {
+    "id": 5,
+    "image": "/assets/desk5.jpg",
+    "name": "Corner Standing Desk",
+    "description": "A desk that fits perfectly in the corner of a room, maximizing space utilization.",
+    "price": 349.99
+  },
+  {
+    "id": 6,
+    "image": "/assets/desk6.webp",
+    "name": "Adjustable Standing Desk",
+    "description": "A versatile desk that allows you to switch between sitting and standing positions.",
+    "price": 249.99
+  },
+  {
+    "id": 7,
+    "image": "/assets/desk7.jpg",
+    "name": "Electric Standing Desk",
+    "description": "An electrically adjustable desk with smooth height transitions.",
+    "price": 399.99
+  },
+  {
+    "id": 8,
+    "image": "/assets/desk8.jpg",
+    "name": "Convertible Standing Desk",
+    "description": "A desk that can be easily converted from sitting to standing mode.",
+    "price": 299.99
+  },
+  {
+    "id": 9,
+    "image": "/assets/desk9.jpeg",
+    "name": "Compact Standing Desk",
+    "description": "A space-saving desk designed for small workspaces.",
+    "price": 199.99
+  },
+  {
+    "id": 10,
+    "image": "/assets/desk10.jpeg",
+    "name": "Corner Standing Desk",
+    "description": "A desk that fits perfectly in the corner of a room, maximizing space utilization.",
+    "price": 349.99
+  }
+]

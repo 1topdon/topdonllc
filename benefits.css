@@ -1,0 +1,42 @@
+.ben-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding: 20px 0;
+  min-height: 71vh;
+}
+.ben-title {
+  text-align: center;
+}
+.ben-title h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: rosybrown;
+}
+.ben-wrap {
+  display: flex;
+  justify-content: center;
+  gap: 1.2rem;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 10px;
+}
+.ben-body .benefit {
+  width: 35rem;
+  height: auto;
+  border: 1px solid rgb(171, 170, 170);
+  border-radius: 10px;
+  padding: 1.5rem;
+  text-align: left;
+  background-color: whitesmoke;
+  box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.5);
+}
+.benefit .list ul {
+  display: flex;
+  flex-direction: column;
+}
+/* .benefit p {
+  text-align: left;
+} */

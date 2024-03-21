@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us</title>
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="/style/style.css" />
+    <link rel="stylesheet" href="/style/contact.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">
+          <a href="/index.html"><span>TOPDON LLC</span></a>
+        </div>
+        <div class="nav-container" data-menu="closed">
+          <button onclick="closeMenu()">
+            <img src="/assets/close.svg" alt="close" class="icon close-icon" />
+          </button>
+          <ul class="nav-items .menu-open">
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/pages/desks.html">Desks</a></li>
+            <li><a href="/pages/benefits.html">Health Benefits</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="flex gap-1">
+          <div class="shopping">
+            <a href="/pages/cart.html"
+              ><img
+                src="/assets/shopping_cart.svg"
+                class="icon cart-icon"
+                alt="shopping basket"
+            /></a>
+          </div>
+          <button onclick="openMenu()" id="menu-button">
+            <img src="/assets/menu.svg" class="icon menu-icon" alt="menu" />
+          </button>
+        </div>
+      </nav>
+    </header>
+    <main class="contact-body">
+      <form action="#">
+        <h1>SEND US A MESSAGE</h1>
+        <input
+          type="text"
+          name="fullname"
+          id=""
+          placeholder="Fullname"
+          required
+        />
+        <input type="email" name="email" id="" placeholder="Email" required />
+        <textarea
+          name="Message"
+          id=""
+          cols="30"
+          rows="10"
+          placeholder="Message"
+        ></textarea>
+      </form>
+
+      <section class="contact-section">
+        <h1>CONTACT US</h1>
+        <p>
+          We are here to answer any questions you may have about our products.
+        </p>
+
+        <div class="contact-info">
+          <div class="address">
+            <h3>Address</h3>
+            <p>Ataa Nmai Loop 10, Abeka, Greater Accra</p>
+          </div>
+
+          <div class="phone">
+            <h3>Phone</h3>
+            <a href="tel:+">
+              <p>+233 546 132 645</p>
+            </a>
+          </div>
+
+          <div class="">
+            <h3>Email</h3>
+            <a href="mailto:"> josephkotey@gmail.com</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer flex">
+      <div class="container">
+        <div class="footer-logo">
+          TOPDON LLC
+          <p>Home of the best standing desks in the world 🌎</p>
+        </div>
+        <ul>
+          <li>Products</li>
+          <li><a href=""> Pneumatic Desks </a></li>
+          <li><a href=""> The Loud Desks </a></li>
+          <li><a href=""> Electric Desks </a></li>
+        </ul>
+        <ul>
+          <li>Connect</li>
+          <li><a href="/pages/contact.html"> Contact Us </a></li>
+          <li><a href="/pages/benefits.html"> Health Benefits </a></li>
+          <li><a href="/pages/cart.html">Shop Now </a></li>
+        </ul>
+        </div>
+        <p>© 2024 JOSEPH TOPDON LLC. All rights reserved.</p>
+    </footer>
+    <script src="../script/index.js"></script>
+  </body>
+</html>
